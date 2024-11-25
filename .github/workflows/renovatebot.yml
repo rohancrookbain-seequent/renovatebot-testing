@@ -1,6 +1,6 @@
 name: Renovate
 on:
-  # push:
+  push:
   workflow_dispatch:
 jobs:
   renovate:
