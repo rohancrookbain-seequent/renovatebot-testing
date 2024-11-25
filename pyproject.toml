@@ -1,0 +1,17 @@
+[project]
+name = "renovatebot-testing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lib1",
+    "lib2",
+]
+
+[tool.uv.workspace]
+members = ["lib1", "lib2"]
+
+[tool.uv.sources]
+lib1 = { workspace = true }
+lib2 = { workspace = true }
